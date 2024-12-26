@@ -1,0 +1,32 @@
+
+html{
+    font-size: 62.5%;
+  }
+
+  @media(max-width:998px){
+    html{
+      font-size: 55%;
+    }
+  }
+  @media(max-width:768px){
+    html{
+      font-size: 45%;
+
+    }
+      
+    .game{
+        flex-direction: column;
+    }
+    
+  }
+  @media(max-width:455px){
+    html{
+      font-size: 35%;
+    }
+    .game{
+        flex-direction: column;
+    }
+   
+    }
+
+   
